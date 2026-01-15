@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.hero {
+  padding: 30px;
+  color: white;
+  background: linear-gradient(135deg, #ff0077, #ff6a00, #0098ff, #7a00ff);
+  background-size: 400% 400%;
+  animation: gradient 6s ease infinite;
+}
+
+@keyframes gradient {
+  0% {background-position: 0% 50%;}
+  50% {background-position: 100% 50%;}
+  100% {background-position: 0% 50%;}
+}
+
+section {
+  padding: 20px;
+  background: white;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer {
+  padding: 20px;
+  background: #222;
+  color: white;
+  margin-top: 20px;
+}
+
+a {
+  color: #0077ff;
+  text-decoration: none;
+}
