@@ -109,6 +109,25 @@
 </div>
 
 <div class="overlay"></div>
+<script>
+const sidebar = document.querySelector('.sidebar');
+const overlay = document.querySelector('.overlay');
+const toggle = document.querySelector('.sidebar-toggle');
+
+toggle.addEventListener('click', () => {
+  sidebar.style.left = '0';
+  overlay.style.display = 'block';
+});
+
+overlay.addEventListener('click', () => {
+  sidebar.style.left = '-240px';
+  overlay.style.display = 'none';
+});
+</script>
+
+<script src="script.js"></script>
+</body>
+</html>
 </body>
 </html></body>
 </html>
