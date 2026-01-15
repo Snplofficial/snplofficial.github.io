@@ -43,3 +43,32 @@ a {
   color: #0077ff;
   text-decoration: none;
 }
+.menu {
+  text-align:center;
+  font-family:Arial, sans-serif;
+  margin:10px 0;
+}
+
+.menu-toggle {
+  display:inline-block;
+  padding:8px 14px;
+  background:#222;
+  color:#fff;
+  border-radius:6px;
+  cursor:pointer;
+  font-size:18px;
+}
+
+.menu-items {
+  display:none;
+  flex-direction:column;
+  gap:6px;
+  margin-top:10px;
+}
+
+.menu-items a {
+  text-decoration:none;
+  color:#222;
+  padding:6px 0;
+  font-size:16px;
+}
